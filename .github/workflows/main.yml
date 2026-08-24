@@ -21,7 +21,7 @@ jobs:
       - name: Generate profile SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: sanzserif
+          GITHUB_USERNAME: sanszerif
         run: python3 .github/scripts/generate_svg.py
 
       - name: Commit and push
