@@ -21,7 +21,7 @@ ASSETS_DIR = os.path.join(REPO_ROOT, "Assets")
 
 # -- CONFIG -------------------------------------------------------------------
 BORN = date(2001, 9, 27)
-USERNAME = os.environ.get("GITHUB_USERNAME", "sanzserif")
+USERNAME = os.environ.get("GITHUB_USERNAME", "sanszerif")
 WAKATIME_USER_ID = "018c62f8-0dfd-4403-a80b-cfbb08a36703"
 GH_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -149,7 +149,7 @@ info = [
     kv("Certification: ",         "CS grad, Uni of Westminster"),
     kv("Certified Batch: ",       "Class of 2026"),
     kv("Current Host: ",          "LOLC Technologies"),
-    kv("Kernel: ",                "Associate SE"),
+    kv("Kernel: ",                "Associate SE, 5Y"),
     kv("IDE: ",                   "VS Code, Terminal"),
     [],
     kv("Languages.Programming: ", "TypeScript, Java"),
